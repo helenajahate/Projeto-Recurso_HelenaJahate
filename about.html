@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jurassic World</title>
+
+        <!--Ico-->
+        <link rel="shortcut icon" href="images/jurassic.ico">
+        <!--Stylesheet Css-->
+        <link href="stylesheet.css" rel="stylesheet">
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        
+        <script src="jquery-3.2.1.min.js"></script>
+    </head>
+
+    <body>
+            <div class="about col-lg-12 col-md-12">
+       <nav id="nav-main">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+            <div id="nav-trigger">
+                <span>Menu</span>
+            </div>
+        <nav id="nav-mobile"></nav>    
+                
+             <a href="http://www.imdb.com/video/imdb/vi1176612889?playlistId=tt0369610&ref_=tt_ov_vi" target="_blank"><img src="images/jurassic-logo.png" class="img-responsive col-md-2 col-md-offset-5 col-xs-4 col-xs-offset-4 center logo" alt="jurassic logo"></a>
+      </div>    
+        <div class="col-md-12 col-xs-12 aboutbox">
+            
+            <div class="cartaz col-md-4"></div>
+            <div class="col-md-offset-1 col-md-4">
+                <h1 class="cartaztext">CARTAZ POSTER</h1>
+                <p class="resumo"><br>Apresento o cartaz desenvolvido para o projeto do módulo de Imagem, nesta época de recurso. O filme selecionado para todo o projeto de recurso foi o Jurassic World, de 2015.<br><br></p>
+                <a href="mailto:helenajahate@gmail.com"><div class="btncontact">CONTACTE PARA MAIS INFORMAÇÃO</div></a>
+            </div>
+            
+        
+        </div>
+        
+        
+        
+        
+        
+                
+                 <div class="footer col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="col-md-offset-1">© 2017 | Projecto Recurso | MDD
+Designed by Helena Jahate | Escola Superior de Design, IPCA</p>
+        </div>
+        
+        
+        
+           <script>$(document).ready(function(){
+    $("#nav-mobile").html($("#nav-main").html());
+    $("#nav-trigger span").click(function(){
+        if ($("nav#nav-mobile ul").hasClass("expanded")) {
+            $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+            $(this).removeClass("open");
+        } else {
+            $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+            $(this).addClass("open");
+        }
+    });
+});
+</script>
+
+    </body>    
+    </html>

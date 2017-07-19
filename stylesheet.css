@@ -1,0 +1,223 @@
+/* =Menu*/
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px black;
+      border-right: solid 10px transparent; }
+    #nav-trigger span:hover {
+      background-color: #e6002d; }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px grey;
+      border-right: solid 10px transparent; }
+
+nav {
+  margin-bottom: 30px; }
+
+nav#nav-main {;
+  padding: 10px 0; }
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav-main li {
+    display: inline-block;
+    border-right: solid 1px #cc0028;
+    padding: 0 5px; }
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-main a:hover {
+      background-color: #e6002d;
+      color: #fff; }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ff0032; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #cc0028; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-mobile a:hover {
+      background-color: grey;
+      color: #fff; }
+
+
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}
+
+
+.hero{
+    background-color: black;
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+.about{
+    background-color: black;
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.cartaz{
+    background-image: url(images/versao-jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.cartaztext{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+}
+.btncontact{
+    color: white;
+    border: 1px solid;
+    padding: 14px;
+    width: 300px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.aboutbox{
+    background-color: black;
+    height: 600px;
+}
+
+.logo{
+    margin: auto;
+    width: 40%;
+}
+.welcome{
+    color: white;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.trex{
+    background-image: url(images/trex.png);
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.logofooter{
+    width: 70px;
+}
+
+.height-150{
+    height: 150px;
+}
+
+.resumo{
+    font-size: 17px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+}
+
+.actor1{
+    height:400px;
+    background-image: url(images/actor1.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.actor2{
+    height:400px;
+    background-image: url(images/actor2.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.actor3{
+    height:400px;
+    background-image: url(images/actor3.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.actor4{
+    height:400px;
+    background-image: url(images/actor4.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+
+.actordes{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer{
+    height: 50px;
+    color: white;
+    font-size: 12px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.cast{
+    background-image: url(images/texture.jpg);
+    background-position: top;
+    background-size: cover;
+    background-size: cover;
+}
+
